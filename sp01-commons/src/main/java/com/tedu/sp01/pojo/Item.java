@@ -9,6 +9,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class Item {
 	private Integer id;//编号
-	private String name;
+	private String name;//姓名
 	private Integer number;
 }
