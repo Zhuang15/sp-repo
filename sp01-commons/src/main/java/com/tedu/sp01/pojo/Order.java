@@ -11,6 +11,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class Order {
 	private String id;
-	private User user;
+	private User user;//实体类User
 	private List<Item> items;
 }
